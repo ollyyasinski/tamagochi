@@ -15,7 +15,8 @@ describe("Tamagotchi", function() {
             var myPet = Object.create(Tamagotchi);
             myPet.initialize("lil dragon");
             myPet.timePasses();
-            myPet.foodLevel.should.equal(9);
+            myPet.foodLevel.should.equal(10);
+            cnhmmn
         });
     });
 
